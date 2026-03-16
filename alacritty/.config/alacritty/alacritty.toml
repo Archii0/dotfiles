@@ -20,31 +20,72 @@ family = "Hack Nerd Font"
 style = "Medium"
 
 
-# Colors (Gruvbox Material Hard Dark)
+# Colors (nvim-dark)
 
-# Default colors
 [colors.primary]
-background = '#1d2021'
-foreground = '#d4be98'
+background = "#14161b"
+foreground = "#E0E2EA"
+dim_foreground = "#C4C6CD"
+bright_foreground = "#E0E2EA"
 
-# Normal colors
+[colors.cursor]
+text = "#14161b"
+cursor = "#E0E2EA"
+
+[colors.vi_mode_cursor]
+text = "#14161b"
+cursor = "#E0E2EA"
+
+[colors.search.matches]
+foreground = "#14161b"
+background = "#6b5300"
+
+[colors.search.focused_match]
+foreground = "#14161b"
+background = "#fce094"
+
+[colors.footer_bar]
+foreground = "#14161b"
+background = "#7EDFDE"
+
+[colors.hints.start]
+foreground = "#14161b"
+background = "#E5ADB9"
+
+[colors.hints.end]
+foreground = "#14161b"
+background = "#7EDFDE"
+
+[colors.selection]
+text = "#E0E2EA"
+background = "#4f5258"
+
 [colors.normal]
-black   = '#32302f'
-red     = '#ea6962'
-green   = '#a9b665'
-yellow  = '#d8a657'
-blue    = '#7daea3'
-magenta = '#d3869b'
-cyan    = '#89b482'
-white   = '#d4be98'
+black = "#2c2e33"
+red = "#E5ADB9"
+green = "#A2DFC0"
+yellow = "#E3CA85"
+blue = "#95C5E5"
+magenta = "#E5B6E6"
+cyan = "#7EDFDE"
+white = "#C4C6CD"
 
-# Bright colors (same as normal colors)
 [colors.bright]
-black   = '#32302f'
-red     = '#ea6962'
-green   = '#a9b665'
-yellow  = '#d8a657'
-blue    = '#7daea3'
-magenta = '#d3869b'
-cyan    = '#89b482'
-white   = '#d4be98'
+black = "#4f5258"
+red = "#FFC0B9"
+green = "#B4F6C0"
+yellow = "#FCE094"
+blue = "#A6DBFF"
+magenta = "#FFCAFF"
+cyan = "#8CF8F7"
+white = "#9b9ea4"
+
+[colors.dim]
+black = "#2c2e33"
+red = "#E5ADB9"
+green = "#A2DFC0"
+yellow = "#E3CA85"
+blue = "#95C5E5"
+magenta = "#E5B6E6"
+cyan = "#7EDFDE"
+white = "#C4C6CD"
