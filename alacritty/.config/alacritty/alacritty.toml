@@ -4,34 +4,47 @@ hide_when_typing = true
 [window]
 startup_mode = "Windowed"
 
+[font]
+size = 12.0
+
+[font.normal]
+family = "Hack Nerd Font"
+style = "Light"
+
+[font.italic]
+family = "Hack Nerd Font"
+style = "Light Italic"
+
+[font.bold]
+family = "Hack Nerd Font"
+style = "Medium"
+
+
+# Colors (Gruvbox Material Hard Dark)
+
 # Default colors
 [colors.primary]
-background = '#292C3E'
-foreground = '#EBEBEB'
-
-# Cursor colors
-[colors.cursor]
-text = '#EBEBEB'
-cursor = '#FF261E'
+background = '#1d2021'
+foreground = '#d4be98'
 
 # Normal colors
 [colors.normal]
-black   = '#0d0d0d'
-red     = '#FF301B'
-green   = '#A0E521'
-yellow  = '#FFC620'
-blue    = '#1BA6FA'
-magenta = '#8763B8'
-cyan    = '#21DEEF'
-white   = '#EBEBEB'
+black   = '#32302f'
+red     = '#ea6962'
+green   = '#a9b665'
+yellow  = '#d8a657'
+blue    = '#7daea3'
+magenta = '#d3869b'
+cyan    = '#89b482'
+white   = '#d4be98'
 
-# Bright colors
+# Bright colors (same as normal colors)
 [colors.bright]
-black   = '#6D7070'
-red     = '#FF4352'
-green   = '#B8E466'
-yellow  = '#FFD750'
-blue    = '#1BA6FA'
-magenta = '#A578EA'
-cyan    = '#73FBF1'
-white   = '#FEFEF8'
+black   = '#32302f'
+red     = '#ea6962'
+green   = '#a9b665'
+yellow  = '#d8a657'
+blue    = '#7daea3'
+magenta = '#d3869b'
+cyan    = '#89b482'
+white   = '#d4be98'
